@@ -1,6 +1,7 @@
 .searchBar {
     position: relative;
     z-index: 1;
+
     .searchBar-input {
         width: 600px;
         height: 100%;
@@ -10,18 +11,19 @@
         font-size: $body1;
         transition: all ease .5s;
 
-        &:focus, &:hover {
+        &:focus,
+        &:hover {
             border: 3px solid $primary;
             transition: all ease .5s;
         }
 
-        &:focus + .searchBar-icon,
-        &:hover + .searchBar-icon{
+        &:focus+.searchBar-icon,
+        &:hover+.searchBar-icon {
             color: $primary_600;
         }
     }
 
-    .searchBar-icon{
+    .searchBar-icon {
         position: absolute;
         top: 50%;
         right: 1.5em;

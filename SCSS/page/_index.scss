@@ -81,7 +81,11 @@
     left: 0;
 }
 
-// 
+.inedx-wheel-overhide {
+    overflow: hidden;
+    padding: 120px 0;
+}
+
 .inedx-wheel {
     position: relative;
     width: 100%;
@@ -90,6 +94,9 @@
 }
 
 .inedx-wheel-text {
+    position: relative;
+    z-index: 5;
+
     h3 {
         font-size: $h3;
         font-weight: 700;
@@ -108,20 +115,20 @@
 
 .inedx-wheel-pc-person {
     z-index: 3;
-    bottom: -24px;
-    width: 32vw;
+    bottom: -15px;
+    width: 38vw;
 }
 
 .inedx-wheel-pc-drink {
     z-index: 2;
-    right: 12vw;
-    bottom: -32px;
-    width: 53vw;
+    right: 8vw;
+    bottom: -8px;
+    width: 63vw;
 }
 
 .inedx-wheel-pc-wheel {
     z-index: 1;
-    right: -6vw;
+    right: -12vw;
     top: -72px;
-    width: 25vw;
+    width: 33vw;
 }
